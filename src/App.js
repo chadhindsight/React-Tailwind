@@ -13,7 +13,7 @@ function App() {
         setImages(data.hits);
         setIsLoading(false);
       }).catch(err => console.log(err))
-  }, []);
+  }, [term]);
   console.log(process.env.REACT_APP_API_KEY)
   return (
     <div className="container mx-auto">
