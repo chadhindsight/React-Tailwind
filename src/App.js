@@ -4,6 +4,7 @@ import ImageCard from "./components/ImageCard"
 function App() {
   const [images, setImages] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
+  // Store search term in react state
   const [term, setTerm] = useState('');
 
   useEffect(() => {
