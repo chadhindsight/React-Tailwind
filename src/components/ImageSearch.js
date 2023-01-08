@@ -7,7 +7,7 @@ const ImageSearch = ({ searchText }) => {
         e.preventDefault();
         searchText(term);
     }
-    // Use a form
+
     return (
         <div className='max-w-sm rounded overflow-hidden my-10 mx-auto'>
             <form onSubmit={onSubmit} className="w-full max-w-sm">
